@@ -1,0 +1,29 @@
+/* promptime guides: phone first, RTL, the colors and fonts of template/card.css */
+@import url("https://fonts.googleapis.com/css2?family=Karantina:wght@700&family=IBM+Plex+Sans+Hebrew:wght@400;500;700&family=JetBrains+Mono:wght@500;800&display=swap");
+:root { --paper: #f1ece2; --ink: #1a1722; --soft: #4d4757; --signal: #ff3b30; --card: #fff; --line: #e4ddd0; }
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--paper); color: var(--ink); font: 400 18px/1.7 "IBM Plex Sans Hebrew", sans-serif; }
+main { max-width: 720px; margin: 0 auto; padding: 20px 16px 60px; }
+.logo { font: 800 18px/1 "JetBrains Mono", monospace; color: var(--ink); text-decoration: none; direction: ltr; display: inline-block; }
+.logo::after { content: ""; display: inline-block; width: .55em; height: 1em; margin-left: 3px; vertical-align: -2px; background: var(--signal); }
+h1 { margin: 22px 0 8px; font: 700 46px/1.05 Karantina, sans-serif; }
+h1 mark, h2 mark { background: var(--signal); color: var(--paper); padding: 0 .12em; }
+h2 { margin: 36px 0 10px; font: 700 32px/1.1 Karantina, sans-serif; }
+p, li { color: var(--soft); } b, strong { color: var(--ink); }
+.meta { font-size: 14px; color: var(--soft); }
+.box { position: relative; margin: 26px 0 14px; padding: 30px 18px 16px; background: var(--card); border-radius: 22px; box-shadow: 0 14px 34px rgba(26, 23, 34, .12); }
+.box .tag { position: absolute; top: -13px; right: 16px; padding: 5px 13px 3px; border-radius: 999px; background: var(--signal); color: #fff; font: 700 14px/1.2 "IBM Plex Sans Hebrew", sans-serif; }
+pre { margin: 0; white-space: pre-wrap; word-wrap: break-word; font: 500 15px/1.6 "IBM Plex Sans Hebrew", sans-serif; color: var(--ink); }
+pre.ltr, code { direction: ltr; unicode-bidi: isolate; text-align: left; font-family: "JetBrains Mono", monospace; font-size: 13px; }
+code { padding: 1px 6px; border-radius: 6px; background: #fff3c4; color: var(--ink); }
+ol, ul { padding-right: 22px; } li { margin: 6px 0; }
+.copy { margin-top: 12px; padding: 9px 18px; border: 0; border-radius: 999px; background: var(--ink); color: #fff; font: 700 15px/1 "IBM Plex Sans Hebrew", sans-serif; cursor: pointer; }
+.dl { display: inline-block; margin: 6px 0; padding: 12px 20px; border-radius: 999px; background: var(--signal); color: #fff; font-weight: 700; text-decoration: none; }
+table { width: 100%; border-collapse: collapse; font-size: 15px; } td, th { padding: 8px 6px; border-bottom: 1px solid var(--line); text-align: right; }
+td.t { direction: ltr; text-align: right; font-family: "JetBrains Mono", monospace; }
+.warn { padding: 14px 16px; border-radius: 16px; background: #fff7d6; }
+a { color: var(--ink); }
+.list a { display: block; margin: 14px 0; padding: 18px; background: var(--card); border-radius: 22px; text-decoration: none; box-shadow: 0 10px 26px rgba(26, 23, 34, .10); }
+.list b { display: block; font: 700 28px/1.1 Karantina, sans-serif; } .list span { color: var(--soft); font-size: 15px; }
+footer { margin-top: 44px; font-size: 13px; color: var(--soft); }
+hr { border: 0; border-top: 1px solid var(--line); margin: 10px 0; }

@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="he" dir="rtl"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>שיחה אחת, ו-Claude עובד בשיטה שלכם | promptime</title><meta name="description" content="סקיל אמיתי ב-Claude מתוך שיחה אחת, להורדה, והצעדים לבנות אחד משלכם."><link rel="stylesheet" href="guide.css"></head>
+<body><main><a class="logo" href="index.html">promptime</a>
+<h1>שיחה אחת, ו-Claude<br><mark>עובד בשיטה שלכם</mark></h1>
+<p class="meta">מדריך מלא · נבנה ונבדק ב-8.11.2026</p>
+<p>סקיל הוא קובץ הוראות קבוע. מסבירים פעם אחת איך אתם עובדים, ו-Claude עובד ככה גם בשיחות הבאות.</p>
+
+<h2>התוצאה האמיתית: <mark>הסקיל שבנינו</mark></h2>
+<p>ביקשנו מ-Claude סקיל שהופך דף עזרה באנגלית למדריך קצר בעברית. לפני שכתב מילה הוא שאל 5 שאלות. ענינו, ואחרי בערך 2 דקות היה לנו הקובץ הזה. <b>בנינו אותו ב-Claude Code.</b> באפליקציה של Claude עושים את אותו הדבר בשיחה.</p>
+<div class="box"><span class="tag">הקובץ האמיתי, hebrew-guide/SKILL.md</span><pre>---
+name: hebrew-guide
+description: Turns an English help page, docs page, release note or product announcement about an AI tool into a short, clear how-to guide in Hebrew (up to 250 words, Markdown in chat) - what it gives you, what you need, 3-5 steps, a prompt to copy, the main limitation, a 2-minute task and the source link. Use whenever the user shares a link, pasted text or screenshot of an English page about an AI tool or feature and wants it explained or turned into a guide, e.g. &quot;make a guide from this&quot;, &quot;explain this page in Hebrew&quot;, &quot;תעשה מזה מדריך&quot;, &quot;תסביר לי את הדף הזה בעברית&quot;, or simply sends a link to an English help or announcement page of an AI tool with no other text. Do not use for general translation or for pages that are not about an AI tool.
+---
+
+# מדריך קצר בעברית מדף באנגלית
+
+הופכים דף עזרה או הכרזה באנגלית של כלי AI למדריך קצר בעברית, שאפשר לבצע הערב ב-5 דקות.
+
+## למי כותבים
+משתמש קבוע בצ&#x27;אט AI שרוצה להוציא ממנו יותר. לא מפתח. לא מסבירים לו מה זה AI או צ&#x27;אט.
+
+## שלב 1: להשיג את הדף
+- קישור: לפתוח אותו בעצמך ולקרוא את כולו.
+- טקסט מודבק או צילום מסך: לעבוד רק ממה שיש בהם.
+- אם הדף לא נפתח (שגיאה, דורש התחברות, ריק): לומר את זה ולבקש טקסט מודבק או צילום מסך. אף פעם לא לכתוב מהזיכרון.
+
+## שלב 2: להעתיק לפני שכותבים
+לפני כל מילה בעברית, להעתיק מהדף מילה במילה את המשפטים החשובים: מחיר ותוכנית, למי זה זמין, מגבלות, איפה לוחצים ושמות הכפתורים. זו רשימת עבודה, לא חלק מהתשובה. כל עובדה במדריך חייבת להופיע בה.
+אם בדף כמה פיצ&#x27;רים, לבחור אחד: את מה שהקורא יכול לעשות הערב.
+
+## שלב 3: לכתוב לפי התבנית
+עד 250 מילים, Markdown בצ&#x27;אט, בסדר הזה:
+
+````markdown
+&lt;שורה אחת: מה זה נותן לכם, עם דוגמה מהיום-יום&gt;
+
+**מה צריך:** &lt;חשבון, אפליקציה, חינם או בתשלום - רק לפי הדף&gt;
+
+**איך עושים:**
+1. &lt;פעולה אחת&gt;
+2. &lt;פעולה אחת&gt;
+3. &lt;פעולה אחת&gt;
+
+**פרומפט להעתקה:**
+```
+&lt;פרומפט אחד מוכן&gt;
+```
+
+**כן, אבל:** &lt;המגבלה הכי חשובה, לפי הדף&gt;
+
+**נסו עכשיו:** &lt;משימה של 2 דקות&gt;
+
+מקור: &lt;קישור&gt;
+````
+
+- 3 עד 5 צעדים, כל צעד = פעולה אחת. אם אי אפשר בפחות מ-6, לומר את זה במקום לדחוס.
+- פרומפט רק אם הכלי עובד עם פרומפט. אחרת מוחקים את החלק הזה.
+- אין קישור (טקסט מודבק או צילום מסך)? במקור כותבים את שם הדף ו&quot;צילום מסך&quot; או &quot;טקסט שהודבק&quot;.
+
+## שפה
+- שמות כפתורים ותפריטים נשארים באנגלית, בדיוק כמו על המסך. בפעם הראשונה מוסיפים הסבר קצר בעברית בסוגריים, למשל: Settings (הגדרות).
+- מונח מקצועי מקבל קודם תמונה מהיום-יום. אם המדריך עובד בלעדיו, מוותרים עליו.
+- פונים לקורא ב&quot;אתם&quot;.
+- בלי מקף ארוך, רק &quot;-&quot;.
+
+## אסור להמציא
+- אין צעד, מספר, מחיר או תאריך שלא כתוב בדף. מה שחסר: &quot;לא כתוב בדף&quot;.
+- טענה של החברה (מהיר יותר, מדויק יותר, הכי טוב) נכתבת &quot;לפי &lt;שם החברה&gt;&quot;.
+- &quot;חינם&quot; רק אם הדף אומר את זה במפורש.
+
+## בדיקה לפני ששולחים
+- כל מספר, מחיר, תאריך ושם כפתור מופיע ברשימת הציטוטים מהדף.
+- אין מילה שחבר שלא מבין בטכנולוגיה לא יבין. אם יש, להחליף או למחוק.
+- מישהו יכול לעשות את זה הערב, ב-5 דקות, רק מהמדריך? אם לא, לתקן.
+- עד 250 מילים, ואין מקף ארוך.
+</pre></div>
+<a class="dl" href="files/hebrew-guide.zip" download>להורדת הסקיל (ZIP)</a>
+
+<h2>והסקיל בעבודה</h2>
+<p>נתנו לו את דף העזרה של Google Flow על קרדיטים (באנגלית), עם המשפט ״תעשה מזה מדריך״. זו התשובה שלו, מילה במילה. בדקנו כל מספר מול הדף, והכל נכון.</p>
+<div class="box"><span class="tag">התשובה האמיתית</span><pre>Google Flow (הכלי של Google ליצירת סרטונים ותמונות ב-AI) נותן לכם 50 קרדיטים ביום גם בלי מנוי. זה כמו דמי כיס יומיים שלא נצברים למחר, אז הנה איך בודקים כמה נשאר ולא שורפים הכל על ניסיון אחד.
+
+<b>מה צריך:</b> רק להיכנס ל-Google Flow. מנוי לא חובה: את 50 הקרדיטים היומיים מקבלים כולם, ומנויי Google AI מקבלים תוספת כל חודש (Plus: 200, Pro: 1,000).
+
+<b>איך עושים:</b>
+1. היכנסו ל-Google Flow.
+2. לחצו למעלה מימין על תמונת הפרופיל שלכם (או על האות הראשונה של השם). היתרה מופיעה מתחת לפרטים שלכם.
+3. לחצו Settings (הגדרות) בפינה הימנית העליונה של תיבת הפרומפט, ובדקו כמה עולה כל מודל. לפי Google, המחירים יכולים להשתנות בכל רגע.
+4. לסרטון קצר וזול בחרו Omni Flash 1.2 באיכות בסיסית (360p). זה עולה קרדיט אחד לכל שנייה, לסרטון של עד 10 שניות.
+5. הדביקו את הפרומפט וצרו. שימו לב: משלמים על כל סרטון שנוצר, ובקשה אחת יכולה ליצור 2 סרטונים.
+
+<b>פרומפט להעתקה:</b>
+A steaming cup of coffee on a wooden table by a rainy window, soft morning light, slow camera push-in, calm and cozy
+
+<b>כן, אבל:</b> בלי מנוי, בשעות העומס (בערך 2 עד 5 אחר הצהריים לפי השעון העולמי, UTC), ייתכן שלא תוכלו ליצור סרטונים. תמונות אפשר ליצור גם בשעות האלה.
+
+<b>נסו עכשיו:</b> בדקו את היתרה, צרו סרטון אחד מהפרומפט ובדקו שוב כמה ירד. ככה תדעו כמה באמת עולה לכם סרטון.
+
+מקור: https://support.google.com/flow/answer/16526234?hl=en</pre></div>
+
+<h2>מה צריך</h2>
+<ul><li>חשבון ב-Claude. לפי Anthropic, סקילים פתוחים גם בתוכנית החינמית (Free), וגם ב-Pro, Max, Ultra, Team ו-Enterprise.</li>
+<li>ההגדרה <code>Code execution and file creation</code> דלוקה (בהגדרות המעודכנות: <code>Create and edit files</code>). איפה: <code>Settings</code> ← <code>Capabilities</code>.</li></ul>
+
+<h2>דרך 1: בונים סקיל משלכם</h2>
+<ol><li>פותחים שיחה חדשה ב-Claude וכותבים את התבנית שלמטה.</li>
+<li>יש לכם דוגמה שאתם אוהבים (תבנית, סיכום מוצלח, הנחיות של העסק)? מצרפים אותה.</li>
+<li>Claude ישאל איך אתם עובדים. עונים בפירוט, כמו שהייתם מסבירים למישהו חכם שלא מכיר את העבודה שלכם. תגידו גם מה אסור.</li>
+<li>הוא כותב קובץ SKILL.md ואורז את הסקיל. שומרים את הקובץ.</li>
+<li>הסקיל מופיע ב-<code>Customize</code> ← <code>Skills</code>, ומשם מדליקים אותו.</li>
+<li>בודקים עם משימה רגילה. לפי Anthropic, בחשיבה של Claude תראו <code>Using</code> ואת שם הסקיל.</li>
+<li>משהו לא מדויק? ״תעדכן את הסקיל: [מה לשנות]״.</li></ol>
+<div class="box"><span class="tag">תבנית להעתקה</span><pre id="t1">אני רוצה ליצור סקיל ל[המשימה שחוזרת אצלכם, למשל: סיכום פגישה בפורמט קבוע].
+ככה אני עובד היום: [2-3 משפטים].
+מה אסור שיקרה: [למשל: להמציא מספרים].
+תשאל אותי שאלות לפני שאתה כותב.</pre><button class="copy" data-t="t1">העתקה</button></div>
+
+<h2>דרך 2: לוקחים את הסקיל שלנו</h2>
+<ol><li>מורידים את <code>hebrew-guide.zip</code> (הכפתור למעלה).</li>
+<li>ב-Claude: <code>Customize</code> ← <code>Skills</code>.</li>
+<li>לוחצים <code>+</code> ואז <code>Create skill</code>.</li>
+<li>בוחרים <code>Upload a skill</code> ומעלים את הקובץ.</li>
+<li>מנסים: ״תעשה מזה מדריך:״ וקישור לדף עזרה באנגלית.</li></ol>
+
+<h2>כן, אבל</h2>
+<p class="warn">סקיל עובד רק כשההגדרה של הקבצים דלוקה. סקיל שהעליתם נשאר אצלכם, ושיתוף קיים רק ב-Team וב-Enterprise. ותמיד בודקים את התוצאה הראשונה.</p>
+
+<h2>מקורות</h2>
+<ul><li>Claude Academy, יצירת סקיל בשיחה: <a href="https://academy.claude.com/tutorials/how-to-create-a-skill-with-claude-through-conversation">academy.claude.com</a></li>
+<li>Anthropic, עזרה: שימוש בסקילים: <a href="https://support.claude.com/en/articles/12512180-use-skills-in-claude">support.claude.com</a></li>
+<li>Google, עזרה: הקרדיטים ב-Flow (הדף שהסקיל קיבל): <a href="https://support.google.com/flow/answer/16526234?hl=en">support.google.com</a></li></ul>
+<p class="meta">הסקיל, השיחה והתשובה: אמיתיים, נוצרו אצלנו ב-Claude Code ב-8.11.2026. Claude הוא סימן מסחר של Anthropic, ואין קשר בינינו.</p>
+<footer>פרומפטיים מלמדים לעבוד עם AI בעברית פשוטה. אין לנו קשר לחברות שמוזכרות כאן.</footer>
+</main><script>document.querySelectorAll('.copy').forEach(b=>b.onclick=()=>{navigator.clipboard.writeText(document.getElementById(b.dataset.t).innerText);b.textContent='הועתק ✓'})</script></body></html>
