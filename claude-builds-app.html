@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="he" dir="rtl"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Claude בונה לכם אפליקציה. מספיק לבקש. | promptime</title><meta name="description" content="איך מבקשים מ-Claude כלי קטן שעובד, גם בחשבון החינמי: הצעדים, הבקשה להעתקה, עוד רעיונות והמגבלות."><link rel="stylesheet" href="guide.css">
+<!--seo-->
+<link rel="canonical" href="https://promptimeil-code.github.io/claude-builds-app.html">
+<meta property="og:site_name" content="promptime"><meta property="og:locale" content="he_IL">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Claude בונה לכם אפליקציה. מספיק לבקש. | promptime"><meta property="og:description" content="איך מבקשים מ-Claude כלי קטן שעובד, גם בחשבון החינמי: הצעדים, הבקשה להעתקה, עוד רעיונות והמגבלות.">
+<meta property="og:url" content="https://promptimeil-code.github.io/claude-builds-app.html"><meta property="og:image" content="https://promptimeil-code.github.io/og.png">
+<meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="Claude בונה לכם אפליקציה. מספיק לבקש. | promptime">
+<meta name="twitter:description" content="איך מבקשים מ-Claude כלי קטן שעובד, גם בחשבון החינמי: הצעדים, הבקשה להעתקה, עוד רעיונות והמגבלות."><meta name="twitter:image" content="https://promptimeil-code.github.io/og.png">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "Claude בונה לכם אפליקציה. מספיק לבקש.", "description": "איך מבקשים מ-Claude כלי קטן שעובד, גם בחשבון החינמי: הצעדים, הבקשה להעתקה, עוד רעיונות והמגבלות.", "inLanguage": "he", "image": "https://promptimeil-code.github.io/og.png", "datePublished": "2026-11-09", "dateModified": "2026-11-09", "mainEntityOfPage": "https://promptimeil-code.github.io/claude-builds-app.html", "author": {"@type": "Organization", "name": "promptime", "alternateName": "פרומפטיים", "url": "https://promptimeil-code.github.io/"}, "publisher": {"@type": "Organization", "name": "promptime", "alternateName": "פרומפטיים", "url": "https://promptimeil-code.github.io/"}}</script>
+<!--/seo-->
+</head>
+<body><main><a class="logo" href="index.html">promptime</a>
+<h1>Claude בונה לכם אפליקציה.<br><mark>מספיק לבקש.</mark></h1>
+<p class="meta">מדריך מלא · המקורות נבדקו ב-9.11.2026</p>
+<p>7 כפול 8, והילדה שוב תקועה. מחפשים אפליקציה, ונתקעים מול פרסומות. ב-Claude כותבים במילים מה צריך, וליד הצ'אט נפתח חלון עם כלי קטן שעובד. קוראים לזה Artifact.</p>
+
+<h2>מה זה Artifact</h2>
+<p>לפי Anthropic, Artifact הוא כל דבר ש-Claude מכין בשבילכם ואפשר להראות למישהו: מסמך, מצגת, או כלי קטן שאפשר ללחוץ עליו. הוא נפתח בחלון משלו, ליד השיחה. תחשבו על דף ש-Claude מדפיס לכם, רק שהכפתורים בו עובדים.</p>
+
+<h2>מה צריך</h2>
+<ul><li>חשבון ב-Claude. לפי Anthropic, בניית Artifact בצ'אט פתוחה בכל התוכניות, גם בחינמית.</li>
+<li>ההגדרה <code>Create and edit files</code> דלוקה (בגרסה הישנה של ההגדרות: <code>Cloud code execution and file creation</code>). איפה: <code>Settings</code> ← <code>Capabilities</code> (יכולות).</li>
+<li>מחשב: claude.ai בדפדפן, או האפליקציה של Claude למחשב. לפי Anthropic, שם אפשר ליצור, לערוך ולשתף.</li></ul>
+
+<h2>איך עושים</h2>
+<ol><li>פותחים צ'אט חדש ב-claude.ai.</li>
+<li>כותבים מה צריך ולמי. פרטים קטנים עושים את ההבדל: כמה שאלות, כפתורים גדולים, מה קורה בתשובה נכונה.</li>
+<li>מסיימים ב״תבנה את זה כ-Artifact״. לפי Anthropic, כשהרעיון ברור מבקשים את זה ישירות, למשל <code>Build this as an artifact</code>.</li>
+<li>Claude שואל קודם כמה שאלות (למי זה, מה להראות)? עונים. לפי Anthropic, אם הוא לא שאל, אפשר לבקש שישאל. <a href="ask-first.html">על השיטה הזו יש לנו מדריך משלה</a>.</li>
+<li>ליד הצ'אט נפתח חלון עם הכלי. משחקים בו.</li>
+<li>לא מושלם? אומרים לו מה לשנות, במילים רגילות. נגיד: ״תוסיף טיימר״. לפי Anthropic, ככה משפרים ומוסיפים דברים.</li>
+<li>קפצה שגיאה? לפי Anthropic, ליד השגיאה יש כפתור <code>Try fixing with Claude</code>. הוא מנסה לתקן, אבל אין הבטחה שזה יצליח.</li>
+<li>בודקים: עונים על שאלה אחת נכון ועל אחת לא נכון, ורואים שהכלי מגיב כמו שביקשתם.</li></ol>
+<div class="box"><span class="tag">הבקשה, להעתקה</span><pre id="t1">תבנה לי חידון בלוח הכפל לבת שלי, כיתה ג'. 10 שאלות, כפתורים גדולים, וכוכב על כל תשובה נכונה. תבנה את זה כ-Artifact.</pre><button class="copy" data-t="t1">העתקה</button></div>
+<div class="box"><span class="tag">ואחרי שזה נבנה, להעתקה</span><pre id="t2">תוסיף טיימר של דקה לכל שאלה, ומסך סיום שמראה כמה תשובות היו נכונות.</pre><button class="copy" data-t="t2">העתקה</button></div>
+
+<h2>עוד רעיונות לבקשות</h2>
+<ul><li>״מחשבון הצעת מחיר: אני מקליד שעות ומחיר לשעה, והוא מראה את הסכום. תבנה את זה כ-Artifact.״</li>
+<li>״גלגל תורנות לכלים לשלושה ילדים: לוחצים, והוא בוחר מי שוטף היום. תבנה את זה כ-Artifact.״</li>
+<li>״ספירה לאחור לחופש הגדול, עם מספר הימים בגדול באמצע. תבנה את זה כ-Artifact.״</li></ul>
+<p>כל הרעיונות כאן לא צריכים לזכור כלום מפעם לפעם. זה בכוונה (ראו ״כן, אבל״).</p>
+
+<h2>כן, אבל</h2>
+<p class="warn">לשלוח קישור למישהו: לפי Anthropic, רק במנוי בתשלום (Pro ומעלה). בחינם הכלי נשאר אצלכם. כלי שזוכר מידע מפעם לפעם (נגיד ציונים של כל שבוע): לפי Anthropic, גם זה רק בתשלום. ובחינם יש מכסת שימוש לכל 5 שעות ולכל שבוע, כמו חבילת גלישה. רוצים להעתיק לצ'אט שלכם קוד של כלי שמישהו אחר פרסם? לפי Anthropic, רק ממי שאתם סומכים עליו.</p>
+
+<h2>מקורות</h2>
+<ul><li>Anthropic, עזרה: מה זה Artifact ומי יכול לבנות: <a href="https://support.claude.com/en/articles/17153992-what-are-artifacts-and-how-do-i-use-them">support.claude.com</a></li>
+<li>Claude Academy, איך בונים ומשנים כלי: <a href="https://academy.claude.com/tutorials/build-custom-artifacts-with-claude">academy.claude.com</a></li>
+<li>Anthropic, עזרה: שיתוף בקישור: <a href="https://support.claude.com/en/articles/9547008-share-artifacts">support.claude.com</a></li>
+<li>Anthropic, התוכניות והמכסות: <a href="https://claude.com/pricing">claude.com</a></li></ul>
+<p class="meta">המדריך מבוסס על עמודי העזרה של Anthropic, שנבדקו ב-9.11.2026. Claude הוא סימן מסחר של Anthropic, ואין קשר בינינו.</p>
+<footer>פרומפטיים מלמדים לעבוד עם AI בעברית פשוטה. אין לנו קשר לחברות שמוזכרות כאן.</footer>
+</main><script>document.querySelectorAll('.copy').forEach(b=>b.onclick=()=>{navigator.clipboard.writeText(document.getElementById(b.dataset.t).innerText);b.textContent='הועתק ✓'})</script></body></html>
