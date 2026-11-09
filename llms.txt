@@ -1,0 +1,27 @@
+# promptime (פרומפטיים)
+
+> מדריכים מלאים לעבודה עם AI בעברית פשוטה: צעדים, תבניות להעתקה ומקורות.
+
+## מדריכים
+
+- [מבחן מחר? תנו ל-Gemini לבחון אתכם](https://promptimeil-code.github.io/notebook-quiz-yourself.html): Gemini Notebook בונה כרטיסיות ומבחן מהחומר שלכם, בחינם. הצעדים, התבנית להעתקה והטריק של חזרה רק על מה שפספסתם.
+- [שיחה קשה מחר? תעשו חזרה עם Gemini](https://promptimeil-code.github.io/gemini-live-rehearsal.html): ב-Gemini Live מדברים בקול, והוא משחק את הבוס, המראיין או בעל הדירה. התבנית, הציון אחרי כל סבב, והמלכודת.
+- [Gemini גולש בשבילכם, ומביא דוח עם קישורים](https://promptimeil-code.github.io/gemini-deep-research.html): מחקר עמוק (Deep Research) ב-Gemini: שאלה אחת, ואחרי 5-10 דקות דוח מסודר עם קישורים. הצעדים והבקשה להעתקה.
+- [מצגת ב-AI? אתם כותבים, הוא מעצב](https://promptimeil-code.github.io/gamma-your-text.html): מצגת ב-Gamma עם הטקסט שלכם והעיצוב שלו. התבנית להעתקה, דוגמה ממולאת, ואיך משנים עיצוב בלי לאבד את הטקסט.
+- [Gemini Notebook הופך מסמך לפודקאסט בעברית](https://promptimeil-code.github.io/doc-to-podcast.html): מעלים PDF ל-Gemini Notebook, ושני מגישים מדברים עליו בעברית. הצעדים, הבקשה להעתקה ומה לבדוק.
+- [תיקייה ב-Claude: מסבירים רק פעם אחת](https://promptimeil-code.github.io/claude-projects.html): תיקייה ב-Claude (Projects): מעלים מסמכים פעם אחת, וכל שיחה בתיקייה מכירה אותם. הצעדים והוראות קבועות להעתקה.
+- [מפחדים מאקסל? Claude בונה לכם אותו](https://promptimeil-code.github.io/claude-excel-file.html): מבקשים מ-Claude קובץ Excel עם נוסחאות, ומורידים אותו. התבנית להעתקה, הבדיקה של 2 שורות, והבקשה שמתקנת.
+- [Claude בונה לכם אפליקציה. מספיק לבקש.](https://promptimeil-code.github.io/claude-builds-app.html): איך מבקשים מ-Claude כלי קטן שעובד, גם בחשבון החינמי: הצעדים, הבקשה להעתקה, עוד רעיונות והמגבלות.
+- [ה-AI לומד מהצ'אטים שלכם? מתג אחד עוצר](https://promptimeil-code.github.io/ai-training-switches.html): איך מכבים ב-Claude וב-Gemini את הלמידה מהצ'אטים שלכם, איך פותחים שיחה בסתר, ומה נשמר גם כשהמתג כבוי.
+- [סרטון AI בחינם? תביימו אותו](https://promptimeil-code.github.io/vids-direct-video.html): Google Vids עושה סרטון AI של 15 שניות בחינם. התבנית ״תסריט לפי שניות״, הצעדים, ודוגמה מוכנה להדבקה.
+- [סרטון של שעתיים? Gemini יצפה בשבילכם](https://promptimeil-code.github.io/gemini-youtube-steps.html): Gemini צופה בסרטון יוטיוב ומחזיר טיפים עם הדקה. התוצאה האמיתית והפרומפט.
+- [תמונה מ-Gemini? תכתבו כמו צלם](https://promptimeil-code.github.io/gemini-image-photographer.html): התבנית של הצלם: מה רואים, איפה, איזה אור ובשביל מה. הצעדים, התבנית להעתקה והמלכודת שכולם נופלים בה.
+- [שיחה אחת, ו-Claude עובד בשיטה שלכם](https://promptimeil-code.github.io/claude-skill-chat.html): סקיל אמיתי ב-Claude מתוך שיחה אחת, להורדה, והצעדים לבנות אחד משלכם.
+- [קיבלתם תשובה גנרית? תנו ל-AI לשאול קודם](https://promptimeil-code.github.io/ask-first.html): שתי שורות בסוף הבקשה, וה-AI שואל לפני שהוא מנחש. הבדיקה האמיתית שלנו ב-Gemini, התבנית להעתקה והמלכודת.
+- [Gemini צובע את הקיר, בתמונה, לפני שקונים](https://promptimeil-code.github.io/gemini-edit-photo.html): מצלמים את הסלון, ו-Gemini מראה אותו בצבע חדש לפני שקונים. הצעדים בטלפון, הבקשה להעתקה והמגבלות.
+
+## על האתר
+
+- [פרטיות ועוגיות](https://promptimeil-code.github.io/privacy.html)
+- [תנאי שימוש](https://promptimeil-code.github.io/terms.html)
+- [הצהרת נגישות](https://promptimeil-code.github.io/accessibility.html)

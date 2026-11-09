@@ -174,3 +174,5 @@ footer { margin-top: 44px; font-size: 13px; color: var(--soft); }
 hr { border: 0; border-top: 1px solid var(--line); margin: 10px 0; }
 :focus-visible { outline: 3px solid var(--ink); outline-offset: 3px; border-radius: 6px; }
 footer nav { margin-top: 10px; } footer nav a { color: var(--soft); }
+.crumbs { margin-top: 14px; font-size: 14px; color: var(--soft); } .crumbs a { color: var(--soft); }
+.crumbs + h1 { margin-top: 14px; }
