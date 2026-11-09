@@ -3,6 +3,7 @@
 <title>המדריכים המלאים | promptime</title><meta name="description" content="מדריכים מלאים לעבודה עם AI בעברית פשוטה: צעדים, תבניות להעתקה ומקורות."><link rel="stylesheet" href="guide.css">
 <!--seo-->
 <link rel="canonical" href="https://promptimeil-code.github.io/">
+<link rel="icon" href="/favicon.ico" sizes="any"><link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <meta property="og:site_name" content="promptime"><meta property="og:locale" content="he_IL">
 <meta property="og:type" content="website">
 <meta property="og:title" content="המדריכים המלאים | promptime"><meta property="og:description" content="מדריכים מלאים לעבודה עם AI בעברית פשוטה: צעדים, תבניות להעתקה ומקורות.">
@@ -32,5 +33,5 @@
 <a href="ask-first.html"><b>קיבלתם תשובה גנרית? תנו ל-AI לשאול קודם</b><span>שתי שורות בסוף הבקשה, וה-AI שואל לפני שהוא מנחש. הבדיקה האמיתית שלנו ב-Gemini, התבנית להעתקה והמלכודת.</span></a>
 <a href="gemini-edit-photo.html"><b>Gemini צובע את הקיר, בתמונה, לפני שקונים</b><span>מצלמים את הסלון, ו-Gemini מראה אותו בצבע חדש לפני שקונים. הצעדים בטלפון, הבקשה להעתקה והמגבלות.</span></a>
 </div>
-<footer>פרומפטיים מלמדים לעבוד עם AI בעברית פשוטה. אין לנו קשר לחברות שמוזכרות כאן.</footer>
-</main><script>document.querySelectorAll('.copy').forEach(b=>b.onclick=()=>{navigator.clipboard.writeText(document.getElementById(b.dataset.t).innerText);b.textContent='הועתק ✓'})</script></body></html>
+<footer>פרומפטיים מלמדים לעבוד עם AI בעברית פשוטה. אין לנו קשר לחברות שמוזכרות כאן.<!--legal--><nav aria-label="על האתר"><a href="/privacy.html">פרטיות ועוגיות</a> · <a href="/terms.html">תנאי שימוש</a> · <a href="/accessibility.html">הצהרת נגישות</a></nav><!--/legal--></footer>
+</main><script>document.querySelectorAll('.copy').forEach(b=>{b.setAttribute('aria-live','polite');b.onclick=()=>{const t=document.getElementById(b.dataset.t);navigator.clipboard.writeText(t.innerText).then(()=>b.textContent='הועתק ✓',()=>{const r=document.createRange();r.selectNodeContents(t);getSelection().removeAllRanges();getSelection().addRange(r);b.textContent='מסומן, העתיקו ידנית'})}})</script></body></html>
