@@ -4,11 +4,13 @@
 
 ## מדריכים
 
+- [ציור על דף? Gemini בונה אותו בתלת-ממד](https://promptimeil-code.github.io/sketch-to-3d.html): מצלמים ציור, ו-Gemini בונה ממנו דגם תלת-ממד שמרכיב את עצמו ומסתובב באצבע. התוצאה האמיתית, הבקשה להעתקה ו-3 צעדים.
 - [מבחן מחר? תנו ל-Gemini לבחון אתכם](https://promptimeil-code.github.io/notebook-quiz-yourself.html): Gemini Notebook בונה כרטיסיות ומבחן מהחומר שלכם, בחינם. הצעדים, התבנית להעתקה והטריק של חזרה רק על מה שפספסתם.
 - [שיחה קשה מחר? תעשו חזרה עם Gemini](https://promptimeil-code.github.io/gemini-live-rehearsal.html): ב-Gemini Live מדברים בקול, והוא משחק את הבוס, המראיין או בעל הדירה. התבנית, הציון אחרי כל סבב, והמלכודת.
 - [Gemini גולש בשבילכם, ומביא דוח עם קישורים](https://promptimeil-code.github.io/gemini-deep-research.html): מחקר עמוק (Deep Research) ב-Gemini: שאלה אחת, ואחרי 5-10 דקות דוח מסודר עם קישורים. הצעדים והבקשה להעתקה.
 - [מצגת ב-AI? אתם כותבים, הוא מעצב](https://promptimeil-code.github.io/gamma-your-text.html): מצגת ב-Gamma עם הטקסט שלכם והעיצוב שלו. התבנית להעתקה, דוגמה ממולאת, ואיך משנים עיצוב בלי לאבד את הטקסט.
 - [Gemini Notebook הופך מסמך לפודקאסט בעברית](https://promptimeil-code.github.io/doc-to-podcast.html): מעלים PDF ל-Gemini Notebook, ושני מגישים מדברים עליו בעברית. הצעדים, הבקשה להעתקה ומה לבדוק.
+- [אפקטים לרילס? Claude בונה בצ'אט](https://promptimeil-code.github.io/claude-video-effects.html): Claude בונה אפקטים לרילס מבקשה אחת: מספר שעולה, כותרת עם מרקר ורשימה עם וי. התוצאה האמיתית, הבקשה להעתקה ו-3 צעדים.
 - [תיקייה ב-Claude: מסבירים רק פעם אחת](https://promptimeil-code.github.io/claude-projects.html): תיקייה ב-Claude (Projects): מעלים מסמכים פעם אחת, וכל שיחה בתיקייה מכירה אותם. הצעדים והוראות קבועות להעתקה.
 - [מפחדים מאקסל? Claude בונה לכם אותו](https://promptimeil-code.github.io/claude-excel-file.html): מבקשים מ-Claude קובץ Excel עם נוסחאות, ומורידים אותו. התבנית להעתקה, הבדיקה של 2 שורות, והבקשה שמתקנת.
 - [Claude בונה לכם אפליקציה. מספיק לבקש.](https://promptimeil-code.github.io/claude-builds-app.html): איך מבקשים מ-Claude כלי קטן שעובד, גם בחשבון החינמי: הצעדים, הבקשה להעתקה, עוד רעיונות והמגבלות.
