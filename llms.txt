@@ -4,6 +4,7 @@
 
 ## מדריכים
 
+- [לוגו לעסק? Claude מעצב ערכה שלמה](https://promptimeil-code.github.io/claude-brand-kit.html): Claude מעצב ערכת מיתוג מבקשה אחת: 3 לוגואים, 5 צבעים, כרטיס ביקור, שלט ופוסט לאינסטגרם. התוצאה האמיתית, הבקשה להעתקה ו-3 צעדים.
 - [Claude Fable 5.2: מה הוא עושה ומי מקבל אותו](https://promptimeil-code.github.io/claude-fable-5-2.html): Claude Fable 5.2 יצא ביום שני 9.11.2026. מה Anthropic מספרת שהוא עשה, מי מקבל אותו, מתי עדיף Opus 5.5, ואיך מנסים אותו השבוע.
 - [ציור על דף? Gemini בונה אותו בתלת-ממד](https://promptimeil-code.github.io/sketch-to-3d.html): מצלמים ציור, ו-Gemini בונה ממנו דגם תלת-ממד שמרכיב את עצמו ומסתובב באצבע. התוצאה האמיתית, הבקשה להעתקה ו-3 צעדים.
 - [אפקטים לרילס? Claude בונה בצ'אט](https://promptimeil-code.github.io/claude-video-effects.html): Claude בונה אפקטים לרילס מבקשה אחת: מספר שעולה, כותרת עם מרקר ורשימה עם וי. התוצאה האמיתית, הבקשה להעתקה ו-3 צעדים.
