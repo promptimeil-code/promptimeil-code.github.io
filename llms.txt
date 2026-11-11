@@ -4,6 +4,7 @@
 
 ## מדריכים
 
+- [שיחה אחת, ו-Claude עובד בשיטה שלכם](https://promptimeil-code.github.io/claude-skill-chat.html): סקיל אמיתי ב-Claude מתוך שיחה אחת, להורדה, והצעדים לבנות אחד משלכם.
 - [לוגו לעסק? Claude מעצב ערכה שלמה](https://promptimeil-code.github.io/claude-brand-kit.html): Claude מעצב ערכת מיתוג מבקשה אחת: 3 לוגואים, 5 צבעים, כרטיס ביקור, שלט ופוסט לאינסטגרם. התוצאה האמיתית, הבקשה להעתקה ו-3 צעדים.
 - [Claude Fable 5.2: מה הוא עושה ומי מקבל אותו](https://promptimeil-code.github.io/claude-fable-5-2.html): Claude Fable 5.2 יצא ביום שני 9.11.2026. מה Anthropic מספרת שהוא עשה, מי מקבל אותו, מתי עדיף Opus 5.5, ואיך מנסים אותו השבוע.
 - [ציור על דף? Gemini בונה אותו בתלת-ממד](https://promptimeil-code.github.io/sketch-to-3d.html): מצלמים ציור, ו-Gemini בונה ממנו דגם תלת-ממד שמרכיב את עצמו ומסתובב באצבע. התוצאה האמיתית, הבקשה להעתקה ו-3 צעדים.
@@ -21,7 +22,6 @@
 - [סרטון AI בחינם? תביימו אותו](https://promptimeil-code.github.io/vids-direct-video.html): Google Vids עושה סרטון AI של 15 שניות בחינם. התבנית ״תסריט לפי שניות״, הצעדים, ודוגמה מוכנה להדבקה.
 - [סרטון של שעתיים? Gemini יצפה בשבילכם](https://promptimeil-code.github.io/gemini-youtube-steps.html): Gemini צופה בסרטון יוטיוב ומחזיר טיפים עם הדקה. התוצאה האמיתית והפרומפט.
 - [תמונה מ-Gemini? תכתבו כמו צלם](https://promptimeil-code.github.io/gemini-image-photographer.html): התבנית של הצלם: מה רואים, איפה, איזה אור ובשביל מה. הצעדים, התבנית להעתקה והמלכודת שכולם נופלים בה.
-- [שיחה אחת, ו-Claude עובד בשיטה שלכם](https://promptimeil-code.github.io/claude-skill-chat.html): סקיל אמיתי ב-Claude מתוך שיחה אחת, להורדה, והצעדים לבנות אחד משלכם.
 - [Gemini צובע את הקיר, בתמונה, לפני שקונים](https://promptimeil-code.github.io/gemini-edit-photo.html): מצלמים את הסלון, ו-Gemini מראה אותו בצבע חדש לפני שקונים. הצעדים בטלפון, הבקשה להעתקה והמגבלות.
 
 ## על האתר
